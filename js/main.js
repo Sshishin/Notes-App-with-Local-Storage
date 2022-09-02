@@ -3,11 +3,14 @@
 
 import NotesAPI from './NotesAPI.js';      //Получаем доступ к данным модуля API
 
-NotesAPI.saveNote ({
-    title: "New Note!",
-    body: "I am a new note"
+// NotesAPI.saveNote ({
+//     id: 964343,
+//     title: "Change note!",
+//     body: "I am not a new note"
 
-});
+// });
+
+NotesAPI.daleteNote(964343);
 
 console.log(NotesAPI.getAllNotes());
 
