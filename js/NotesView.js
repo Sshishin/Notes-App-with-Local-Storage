@@ -13,7 +13,7 @@ export default class NotesView {
         </div>
         <div class="notes__preview">
             <input type="text" class="notes__title" placeholder="New note...">
-            <textarea class="notes__body"></textarea>
+            <textarea class="notes__body" placeholder = "Take a note..."></textarea>
         </div>
         `;
 
@@ -36,7 +36,7 @@ export default class NotesView {
             });
         });
 
-        this.updateNotePreviewVisibility(false);        //Скрываем по умполчанию текст заметки
+        // this.updateNotePreviewVisibility(false);        //Скрываем по умполчанию текст заметки
 
     }
 
